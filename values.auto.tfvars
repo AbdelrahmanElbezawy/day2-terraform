@@ -1,0 +1,12 @@
+cred = ["C:\\Users\\norins\\.aws\\creds"]
+key_name = "aws_key_pair"
+profile = "iti"
+region = "us-east-1"
+vpc_cidr = "10.0.0.0/16"
+subnet_cidr = ["10.0.0.0/24", "10.0.1.0/24"]
+azs = ["us-east-1a", "us-east-1b"]
+subnet_name = ["public_subnet","private_subnet"]
+map_public_ip_on_launch = [true,false]
+ec2_name = ["public_instance", "private_instance"]
+ami_id = "ami-0dfcb1ef8550277af" #amazon
+instance_type = "t2.micro"
